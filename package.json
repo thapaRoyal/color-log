@@ -2,9 +2,11 @@
   "name": "color-log",
   "version": "1.0.0",
   "description": "A library to clolrify your console logs.",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -22,5 +24,8 @@
   "homepage": "https://github.com/thapaRoyal/color-log#readme",
   "devDependencies": {
     "typescript": "^4.6.3"
-  }
+  },
+  "files": [
+    "lib/**/*"
+  ]
 }
