@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/thapaRoyal/color-log/issues"
   },
-  "homepage": "https://github.com/thapaRoyal/color-log#readme"
+  "homepage": "https://github.com/thapaRoyal/color-log#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
 }
